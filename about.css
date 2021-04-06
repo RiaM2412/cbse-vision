@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+.navbar{
+    
+    display: flex;
+    background-color: rgb(67, 56, 218);
+    height: 100px;
+}
+.navlist{
+    width:50%;
+    display: flex;
+    
+    align-items: center;
+   
+
+}
+.navlist li{
+ list-style: none;
+ padding: 23px 31px;
+}
+.navlist li a {
+ text-decoration: none;
+ font-size: 24px;
+ color: rgb(255, 255, 255);
+}
+/* .navlist li a:hover{
+    text-decoration: underline;
+} */
+/* Have to change text decoration */
+.logo{
+    width:20%;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+    height: 40%;
+    border-radius: 33px;
+}
+.rightnav{
+    position: relative;
+    right: 50px;
+    padding-top: 30px;
+    width:50%;
+    text-align: right;
+
+}
+#search{
+    padding:3px;
+    border:2px solid gray;
+    border-radius: 6px;
+    height: 20px;
+}
+.btn{
+    padding: 5px 21px;
+    margin:6px 10px;
+    border: 0px solid white;
+    border-radius:8px ;
+    background-color: rgb(6, 6, 128);
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.header-container{
+    height: 100vh;
+    width: 100vw; 
+    left: 0px;
+}
+
+.img-wrapper{
+    width: 100vw;
+    height: 76vh;
+    float: left;
+    position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)) , url('./project pic/2.jpg'), no-repeat;
+    box-shadow: 10px 20px 25px 5px rgba(17, 40, 242, 0.2);
+}
+.para-wrap{
+    position: relative;
+    left: 100px;
+    top: 200px;
+    
+}
+.para1{
+    position: relative;
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+.para2{
+    width: 70vw;
+    position: relative;
+    color: rgb(184, 174, 174);
+    font-size: 36px;
+    
+   
+}
