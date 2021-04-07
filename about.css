@@ -2,12 +2,16 @@
     margin:0;
     padding:0;
     overflow-x: hidden;
+
 }
+
 .navbar{
+    position: fixed;
     
+    z-index: 1;
     display: flex;
     background-color: rgb(67, 56, 218);
-    height: 100px;
+  
 }
 .navlist{
     width:50%;
@@ -19,7 +23,7 @@
 }
 .navlist li{
  list-style: none;
- padding: 23px 31px;
+ padding: 10px 30px;
 }
 .navlist li a {
  text-decoration: none;
@@ -38,14 +42,16 @@
     align-items: center;
 }
 .logo img{
+    position: relative;
     width: 40%;
     height: 40%;
     border-radius: 33px;
+    
 }
 .rightnav{
     position: relative;
     right: 50px;
-    padding-top: 30px;
+    padding-top: 10px;
     width:50%;
     text-align: right;
 
@@ -67,17 +73,18 @@
     cursor: pointer;
 }
 .header-container{
+    position: absolute;
     height: 100vh;
     width: 100vw; 
     left: 0px;
+    top: 90px;
 }
 
-.img-wrapper{
+.carousel-img{
     width: 100vw;
     height: 76vh;
-    float: left;
     position: relative;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)) , url('./project pic/2.jpg'), no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.658)) , url('./project pic/2.jpg'), no-repeat;
     box-shadow: 10px 20px 25px 5px rgba(17, 40, 242, 0.2);
 }
 .para-wrap{
@@ -86,18 +93,19 @@
     top: 200px;
     
 }
-.para1{
+.caption-heading{
     position: relative;
-    color: white;
-    font-size: 100px;
+    color: rgb(38, 0, 255);
+    font-size: 80px;
     font-weight: 600;
     font-family: sans-serif;
 
 }
-.para2{
+
+.caption-para{
     width: 70vw;
     position: relative;
-    color: rgb(184, 174, 174);
+    color: rgb(75, 75, 75);
     font-size: 36px;
     
    

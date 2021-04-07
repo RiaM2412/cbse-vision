@@ -2,6 +2,9 @@
     margin:0;
     padding:0;
 }
+.nav-head{
+    height: 100px;
+}
 .navbar{
     display: flex;
 }
